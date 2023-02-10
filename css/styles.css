@@ -145,6 +145,13 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/studio/background-image/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-header {
@@ -314,6 +321,9 @@ body {
 .work-prop-btn:is(:hover, :focus) {
   color: #ffffff;
   background-color: #404bbf;
+  border: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*------------------Work Proposal List-----------*/
@@ -339,6 +349,14 @@ body {
   height: 420px;
   background: #ffffff;
   width: calc((100% - 48px) / 3);
+}
+
+.work-prop-element:hover {
+  border-bottom: 0.5px solid #f4f4fd;
+  border-left: 0.5px solid #f4f4fd;
+  border-right: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .work-prop-list-titel {
