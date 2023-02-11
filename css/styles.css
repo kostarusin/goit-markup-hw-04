@@ -384,18 +384,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #8e8f99;
 }
 
 .customers-list-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 .customers-list-link:is(:hover, :focus) {
   border-color: #404bbf;
-}
-
-.customers-list-link:is(:hover, :focus) .customers-list-icon {
-  fill: #404bbf;
+  color: #404bbf;
 }
 
 /*-----------Work Proposal Filter-------------*/
