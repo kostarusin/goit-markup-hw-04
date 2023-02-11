@@ -381,14 +381,13 @@ body {
   height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  background-color: var(--main-background-color);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .customers-list-icon {
-  fill: tomato;
+  fill: #8e8f99;
 }
 
 .customers-list-link:is(:hover, :focus) {
@@ -407,6 +406,7 @@ body {
 }
 
 .work-prop-btn-block {
+  display: flex;
   box-sizing: border-box;
   gap: 24px;
   justify-content: center;
