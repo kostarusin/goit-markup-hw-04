@@ -191,43 +191,25 @@ body {
   padding-bottom: 120px;
 }
 
-.features-list {
+.features-icon-box {
   display: flex;
-  gap: 24px;
-}
-
-.list-icon-background::before {
-  content: '';
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4fd;
   width: 264px;
   height: 112px;
-  background: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
 }
 
-.list-icon-background:nth-child(1):before {
-  background-image: url(../images/studio/features-icons/antenna.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.features-icon {
+  width: 64px;
+  height: 64px;
+  fill: #2e2f42;
 }
-
-.list-icon-background:nth-child(2):before {
-  background-image: url(../images/studio/features-icons/clock.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.list-icon-background:nth-child(3):before {
-  background-image: url(../images/studio/features-icons/diagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.list-icon-background:nth-child(4):before {
-  background-image: url(../images/studio/features-icons/astronaut.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.features-list {
+  display: flex;
+  gap: 24px;
 }
 
 .features-title {
@@ -514,4 +496,51 @@ body {
 
 .footer-logo-begin {
   color: #4d5ae5;
+}
+
+.footer-box {
+  display: flex;
+}
+
+.footer-logo-thumb {
+  width: 264px;
+}
+
+.social-media-thumb {
+  width: 208px;
+  margin-left: 120px;
+}
+
+.social-media-titel {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-media-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #f4f4fd;
+}
+
+.social-media-link:is(:hover, :focus) {
+  background-color: #31d0aa;
 }
