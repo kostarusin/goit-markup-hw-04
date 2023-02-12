@@ -142,6 +142,9 @@ body {
 
 .hero-item {
   background-color: var(--hero-background-color);
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
@@ -325,6 +328,10 @@ body {
   background-color: #4d5ae5;
 }
 
+.our-team-soc-link:is(:hover, :focus) {
+  background-color: #31d0aa;
+}
+
 .our-team-icon {
   fill: #f4f4fd;
 }
@@ -407,6 +414,7 @@ body {
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  border: none;
 }
 
 .work-prop-btn:is(:hover, :focus) {
@@ -426,6 +434,10 @@ body {
   column-gap: 24px;
 }
 
+.work-prop-list-link {
+  display: block;
+}
+
 .work-prop-card {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -442,10 +454,7 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
-.work-prop-element:hover {
-  border-bottom: 0.5px solid #f4f4fd;
-  border-left: 0.5px solid #f4f4fd;
-  border-right: 0.5px solid #f4f4fd;
+.work-prop-list-link:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -463,6 +472,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*-----------------Footer-------------*/
