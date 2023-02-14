@@ -331,7 +331,7 @@ body {
 }
 
 .our-team-soc-link:is(:hover, :focus) {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .our-team-icon {
